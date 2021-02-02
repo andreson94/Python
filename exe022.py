@@ -8,5 +8,7 @@ print(len(nome) - nome.count(' '))
 n = nome.split()
 print(len(n [0]))
 
+#print(nome.find(' '))
+
 
 
