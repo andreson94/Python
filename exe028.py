@@ -2,11 +2,11 @@
 # descobrir qual foi o número escolhido pelo computador. O programa deverá escrever na tela se o usuário venceu ou
 # perdeu.
 
-from random import random
-n = random()
+from random import randint
+n = randint(0, 5)
 print('O computador pensou em um numero')
 num = int(input('Qual numero foi? '))
 if num == n:
     print('Você acertou! PARABENS!!!')
 else:
-    print('Que pena voê errou!!!')
+    print('Que pena você errou!!!')
