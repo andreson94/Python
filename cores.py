@@ -3,6 +3,8 @@ cores = {'limpa':'\033[m',
          'vermelho':'\033[31]'}
 
 
+#para chamar usa-se "cores['azul']"
+
 #são separadas por cores texto 30 a 37, estilo (0,1,4,7) , fundo 40 a 47
 # 0 = padrao
 # 1 = vermelho
