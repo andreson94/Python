@@ -14,7 +14,6 @@ cores = {'limpa':'\033[m',
 # 5 = lilas
 # 6 = azul bebe
 # 7 = cinza
-
 # 0 = padrao
 # 1 = negrito
 # 4 = sublinhado
