@@ -7,9 +7,9 @@ print('ANALISE DE ALISTAMENTO MILITAR')
 ano = int(input('Informe o ano de seu nascimento: '))
 idade = date.today().year - ano
 prazo = idade - 18
-if idade >= 17 and idade <= 18:
+if idade == 18:
     print('Você já tem {} anos!\nPode se alistar!'.format(idade))
-elif idade < 17:
+elif idade < 18:
     print('Voce tem apenas {} anos é muito novo, ainda faltam {} anos '.format(idade,prazo))
 else:
     print('você tem {} anos já passou da idade!\nPassaram {} anos do prazo!'.format(idade,prazo))
