@@ -12,6 +12,11 @@ print('''\033[36mEscolha uma jogada:
 [2] TESOURA''')
 
 player = int(input('Qual sua opção: '))
+print('\033[1;33mJO')
+sleep(1)
+print('KEN')
+sleep(1)
+print('PO!!!')
 print('\033[1;33m=-=\033[m' * 7 )
 print('''\033[34mplayer jogou: {}
 cpu jogou: {}'''.format(opcoes[player],opcoes[cpu]))
