@@ -12,7 +12,7 @@ print('''\033[36mEscolha uma jogada:
 [2] TESOURA''')
 
 player = int(input('Qual sua opção: '))
-print('\033[1;33mJO')
+print('\033[1;33m JO')
 sleep(1)
 print('KEN')
 sleep(1)
